@@ -523,8 +523,13 @@
   
   .header-2 {
     display: flex;
-    width: 100%;
     position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #111;
+    z-index: 1;
   }
   
   @media (max-width: 600px) {
